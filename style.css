@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSixcmQsARbTtwpySN--xqSmWg_p2yTCYv80A&usqp=CAU');
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    border:2px solid black;
+    border-radius: 10px;
+  }
+  
+  .clock-face {
+    text-align: center;
+    color:white;
+    margin-bottom: 20px;
+  }
+  
+  .set-alarm,
+  .alarms-list {
+    margin-bottom: 20px;
+  }
+  
+  .set-alarm h2,
+  .alarms-list h2 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
